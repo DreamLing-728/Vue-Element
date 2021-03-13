@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import ElementUI from "element-ui"
 
+import '@/mockjs' // mock数据
+
 Vue.config.productionTip = false
 Vue.use(ElementUI, { size: 'small' })
 

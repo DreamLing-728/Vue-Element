@@ -14,7 +14,7 @@
           </router-link>
           
           <router-link to="/userList">
-            <el-menu-item index="1-1">用户列表</el-menu-item>
+            <el-menu-item index="1-1">用户列</el-menu-item>
           </router-link>
         </el-submenu>
       </el-menu>
@@ -36,11 +36,12 @@ export default {
 
 <style scoped lang='less'>
 .menu_left {
-  position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
   left: 0;
-  width: 200px;
+  width: 100%;
+  height: 100%;
 }
 .menu_page_top {
   width: 100%;
