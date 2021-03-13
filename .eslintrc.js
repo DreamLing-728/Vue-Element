@@ -13,7 +13,7 @@ module.exports = {
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
     'plugin:vue/essential', 
     // https://github.com/standard/standard/blob/master/docs/RULES-en.md
-    'standard'
+    "eslint:recommended"
   ],
   // required to lint *.vue files
   plugins: [
@@ -24,6 +24,9 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // 函数前空格：关闭
+    // 'space-before-function-paren': 'off',
+    // 'semi': [2, 'always']
   }
 }
