@@ -27,6 +27,7 @@ export default {
     *@return {{code: number,, data: { total: number, userList: []}}}
     */
     getUserList: config => {
+        // window.console.log('mock-user-config', config)
         const { limit, page } = JSON.parse(config.body)
         let mockList = List
         window.console.log('limit,limit, page',limit, page, mockList)

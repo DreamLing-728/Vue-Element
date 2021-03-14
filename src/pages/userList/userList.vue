@@ -1,7 +1,7 @@
 <template>
   <div class="page_index">
     <el-table :data="tableData" style="width: 100%">
-      <el-table-column prop="sortnum" label="序号" align="center">
+      <el-table-column prop="sortnum" label="序号" align="center" width="60">
       </el-table-column>
       <el-table-column prop="username" label="用户姓名" align="center">
       </el-table-column>

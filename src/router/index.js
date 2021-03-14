@@ -12,7 +12,7 @@ export const constantRouterMap = [
     path: '/',
     name: '首页',
     component: Layout,
-    // redirect: '/index',
+    redirect: '/index',
     meta: { keepAlive: false, title: 'element' },
     children: [
       {
@@ -25,6 +25,11 @@ export const constantRouterMap = [
         path: '/userList',
         name: '用户列表',
         component: () => import('@/pages/userList/userList')
+      },
+      {
+        path: '/fundList',
+        name: '资金列表',
+        component: () => import('@/pages/fundList/fundList')
       }
     ]
   }

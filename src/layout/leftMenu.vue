@@ -12,9 +12,11 @@
           <router-link to="/index">
             <el-menu-item index="1-1">首页</el-menu-item>
           </router-link>
-          
           <router-link to="/userList">
-            <el-menu-item index="1-1">用户列</el-menu-item>
+            <el-menu-item index="1-1">用户列表</el-menu-item>
+          </router-link>
+          <router-link to="/fundList">
+            <el-menu-item index="1-1">资金列表</el-menu-item>
           </router-link>
         </el-submenu>
       </el-menu>
